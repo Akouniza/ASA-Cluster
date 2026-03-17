@@ -1,0 +1,75 @@
+{
+    "RequestUID": "Ark-Nucleus/WebUI",
+    "UUID": "BasicServerInfoPage",
+    "Data": {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+        "Props": {
+            "UUID": "MainTab",
+            "Fill": 1
+        },
+        "UICache": {
+            "SaveFile": "BasicServerPage-MainTab"
+        },
+        "Tabs": [
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                    "Title": "Welcome",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Welcome to our Ark: Survival Ascended Server!",
+                            "FontSize": 24,
+                            "Justification": "Center",
+                            "Padding": [10, 10, 10, 10]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Enjoy your adventure in this prehistoric world. Follow the rules and have fun!",
+                            "FontSize": 16,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "Rules",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "1. Be respectful to other players.",
+                            "FontSize": 14,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "2. No cheating or exploiting.",
+                            "FontSize": 14,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "3. Have fun and build amazing things!",
+                            "FontSize": 14,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
