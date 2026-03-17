@@ -1,216 +1,60 @@
 {
-    "RequestUID": "Ark-Nucleus/WebUI",
-    "UUID": "AesthiaCluster",
-    "Data": {
-        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
-        "Props": {
-            "UUID": "MainTab",
-            "Fill": 1
-        },
-        "UICache": {
-            "SaveFile": "Aesthia-MainTab"
-        },
-        "Tabs": [
-            {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                "Props": {
-                    "Title": "Aesthia Cluster",
-                    "Note": "Your Survival Ascended Experience",
-                    "Fill": 1,
-                    "Image": "https://cdn.survivetheark.com/uploads/monthly_2024_06/ASA_SummerBash_CC_416_28_June_StA_Cover_1200x675.png.4946192f6ccf8ff774755c978d73384b.png"
-                },
-                "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                        "Props": {
-                            "Fill": 1
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                "Props": {
-                                    "Fill": 2,
-                                    "Padding": [30, 30, 30, 30]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "Welcome to Aesthia ✨",
-                                            "FontSize": 34,
-                                            "Padding": [0, 0, 0, 10]
-                                        }
-                                    },
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "A premium Ark: Survival Ascended cluster focused on immersion, balance, and long-term progression.",
-                                            "FontSize": 16,
-                                            "Padding": [0, 0, 0, 20]
-                                        }
-                                    },
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                        "Props": {
-                                            "Padding": [15, 15, 15, 15],
-                                            "Color": [0.1, 0.1, 0.1, 0.6]
-                                        },
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                                "Props": {
-                                                    "Text": "Server Info\n\n• Balanced Rates\n• Carefully selected mods\n• Active community\n• Events & progression system\n• Wipe info on Discord",
-                                                    "FontSize": 14
-                                                }
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "Fill": 1,
-                                    "VerticalAlignment": 2,
-                                    "Padding": [30, 30, 30, 30]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                                        "UIItems": [
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                "Props": {
-                                                    "Label": "Join Discord",
-                                                    "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
-                                                    "Padding": [5, 5, 5, 10]
-                                                },
-                                                "OnClickEvent": {
-                                                    "Url": "https://aesthia.fr/discord"
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                "Props": {
-                                                    "Label": "Website",
-                                                    "Padding": [5, 5, 5, 10]
-                                                },
-                                                "OnClickEvent": {
-                                                    "Url": "https://aesthia.fr"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
+  "RequestUID": "Ark-Nucleus/WebUI",
+  "UUID": "AesthiaCluster",
 
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                        "Props": {
-                            "Padding": [10, 10, 10, 10]
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "Fill": 1,
-                                    "Color": [0.2, 0.2, 0.5],
-                                    "Padding": [10, 10, 10, 10]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "Community Driven",
-                                            "FontSize": 16
-                                        }
-                                    },
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "Your feedback shapes the server.",
-                                            "FontSize": 12
-                                        }
-                                    }
-                                ]
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                                "Props": {
-                                    "Fill": 1,
-                                    "Color": [0, 0.5, 0.4],
-                                    "Padding": [10, 10, 10, 10]
-                                },
-                                "UIItems": [
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "Balanced Gameplay",
-                                            "FontSize": 16
-                                        }
-                                    },
-                                    {
-                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                        "Props": {
-                                            "Text": "No pay-to-win. Just skill & survival.",
-                                            "FontSize": 12
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
+  "TextConfig": {
+    "TITLE": "Welcome to Aesthia Cluster!",
+    "DESCRIPTION": "Embark on an epic journey in Ark: Survival Ascended...",
+    "SERVER_INFO_TITLE": "Server Info:",
+    "SERVER_INFO_CONTENT": "- Cluster: Aesthia Cluster\n- Rates: Balanced...\n- Mods...\n- Wipe Schedule...",
+    "DISCORD_BUTTON": "Join our Discord",
+    "WEBSITE_BUTTON": "Visit Website",
+    "RULE_1": "1. Be respectful to other players.",
+    "RULE_2": "2. No cheating or exploiting.",
+    "RULE_3": "3. Have fun and build amazing things!"
+  },
 
-            {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
-                "Props": {
-                    "Title": "Rules",
-                    "Note": "Keep the experience fair for everyone",
-                    "Fill": 1
-                },
-                "UIItems": [
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
-                        "Props": {
-                            "Fill": 1
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "1. Respect all players.",
-                                    "FontSize": 14
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "2. No cheating or exploiting.",
-                                    "FontSize": 14
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "3. No toxic behavior.",
-                                    "FontSize": 14
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "4. Build smart, avoid lag.",
-                                    "FontSize": 14
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+  "Data": {
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+    "Tabs": [
+      {
+        "Props": { "Title": "Home" },
+        "UIItems": [
+          {
+            "Widget": "DU_View_SimpleText",
+            "Props": { "Text": "$TITLE", "FontSize": 28 }
+          },
+          {
+            "Widget": "DU_View_SimpleText",
+            "Props": { "Text": "$DESCRIPTION" }
+          },
+          {
+            "Widget": "DU_View_SimpleText",
+            "Props": { "Text": "$SERVER_INFO_TITLE" }
+          },
+          {
+            "Widget": "DU_View_SimpleText",
+            "Props": { "Text": "$SERVER_INFO_CONTENT" }
+          },
+          {
+            "Widget": "DU_Action_Button",
+            "Props": { "Text": "$DISCORD_BUTTON" }
+          },
+          {
+            "Widget": "DU_Action_Button",
+            "Props": { "Text": "$WEBSITE_BUTTON" }
+          }
         ]
-    }
+      },
+
+      {
+        "Props": { "Title": "Rules" },
+        "UIItems": [
+          { "Widget": "DU_View_SimpleText", "Props": { "Text": "$RULE_1" }},
+          { "Widget": "DU_View_SimpleText", "Props": { "Text": "$RULE_2" }},
+          { "Widget": "DU_View_SimpleText", "Props": { "Text": "$RULE_3" }}
+        ]
+      }
+    ]
+  }
 }
