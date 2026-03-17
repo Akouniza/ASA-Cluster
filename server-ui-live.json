@@ -155,6 +155,20 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Visit our website: aesthia.fr | Join our Discord: aesthia.fr/discord",
+                            "FontSize": 14,
+                            "Justification": "Center",
+                            "Padding": [
+                                10,
+                                10,
+                                10,
+                                10
+                            ]
+                        }
                     }
                 ]
             },
@@ -496,6 +510,98 @@
                                 }
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "Français",
+                    "Note": "Contenu en Français",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Bienvenue sur Aesthia Cluster!",
+                            "FontSize": 24,
+                            "Justification": "Center",
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                        "Props": {
+                            "Padding": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Embarquez pour une aventure épique dans Ark: Survival Ascended. Rejoignez notre communauté florissante de survivants, apprivoisez des dinosaures, construisez des bases et conquérez la nature sauvage!",
+                            "FontSize": 16,
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                        "Props": {
+                            "Padding": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                        "Props": {
+                            "Text": "Rejoignez notre Discord",
+                            "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
+                        },
+                        "OnClickEvent": {
+                            "Type": "OpenUrl",
+                            "Url": "https://aesthia.fr/discord"
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                        "Props": {
+                            "Text": "Visitez le Site Web",
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
+                        },
+                        "OnClickEvent": {
+                            "Type": "OpenUrl",
+                            "Url": "https://aesthia.fr"
+                        }
                     }
                 ]
             }
