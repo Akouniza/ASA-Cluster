@@ -14,26 +14,102 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                    "Title": "Welcome",
-                    "Fill": 1
+                    "Title": "Home",
+                    "Fill": 1,
+                    "Image": "https://cdn.survivetheark.com/uploads/monthly_2024_06/ASA_SummerBash_CC_416_28_June_StA_Cover_1200x675.png.4946192f6ccf8ff774755c978d73384b.png"
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                            "Text": "Welcome to our Ark: Survival Ascended Server!",
-                            "FontSize": 24,
-                            "Justification": "Center",
-                            "Padding": [10, 10, 10, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Enjoy your adventure in this prehistoric world. Follow the rules and have fun!",
-                            "FontSize": 16,
-                            "Padding": [5, 5, 5, 5]
-                        }
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                    "Fill": 1,
+                                    "Padding": [30, 30, 30, 30]
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Welcome to Aesthia Cluster!",
+                                            "FontSize": 28,
+                                            "Justification": "Center",
+                                            "Padding": [0, 0, 0, 20]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Embark on an epic journey in Ark: Survival Ascended. Join our thriving community of survivors, tame dinosaurs, build bases, and conquer the wild!",
+                                            "FontSize": 16,
+                                            "Padding": [0, 0, 0, 10]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Server Info:",
+                                            "FontSize": 18,
+                                            "Padding": [0, 0, 0, 10]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "- Cluster: Aesthia Cluster\n- Rates: Balanced for fun and challenge\n- Mods: Custom selection for enhanced gameplay\n- Wipe Schedule: Announced in Discord",
+                                            "FontSize": 14,
+                                            "Padding": [0, 0, 0, 20]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                                "Props": {
+                                    "VerticalAlignment": 2,
+                                    "Padding": [30, 30, 30, 30]
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                        "Props": {
+                                            "Fill": 2,
+                                            "VerticalAlignment": 2,
+                                            "Padding": [0, 0, 0, 10]
+                                        },
+                                        "UIItems": [
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                "Props": {
+                                                    "Text": "Join our Discord",
+                                                    "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
+                                                    "Padding": [5, 5, 5, 5]
+                                                },
+                                                "OnClickEvent": {
+                                                    "Type": "OpenUrl",
+                                                    "Url": "https://aesthia.fr/discord"
+                                                }
+                                            },
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                "Props": {
+                                                    "Text": "Visit Website",
+                                                    "Padding": [5, 5, 5, 5]
+                                                },
+                                                "OnClickEvent": {
+                                                    "Type": "OpenUrl",
+                                                    "Url": "https://aesthia.fr"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
