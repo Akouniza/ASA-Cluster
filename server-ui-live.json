@@ -83,6 +83,22 @@
                                         20
                                     ]
                                 }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                    "Text": "Website",
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                },
+                                "OnClickEvent": {
+                                    "Type": "OpenUrl",
+                                    "Url": "https://aesthia.fr"
+                                }
                             }
                         ]
                     },
@@ -580,6 +596,22 @@
                                         0,
                                         20
                                     ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                    "Text": "Site Web",
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                },
+                                "OnClickEvent": {
+                                    "Type": "OpenUrl",
+                                    "Url": "https://aesthia.fr"
                                 }
                             }
                         ]
