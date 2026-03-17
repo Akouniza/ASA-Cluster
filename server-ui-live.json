@@ -14,25 +14,348 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                 "Props": {
-                    "Title": "Welcome",
+                    "Title": "Home",
+                    "Fill": 1,
+                    "Image": "https://cdn.survivetheark.com/uploads/monthly_2024_06/ASA_SummerBash_CC_416_28_June_StA_Cover_1200x675.png.4946192f6ccf8ff774755c978d73384b.png"
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                        "Props": {
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                    "Fill": 1,
+                                    "Padding": [
+                                        30,
+                                        30,
+                                        30,
+                                        30
+                                    ]
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Welcome to Aesthia Cluster!",
+                                            "FontSize": 28,
+                                            "Justification": "Center",
+                                            "Padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                20
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Embark on an epic journey in Ark: Survival Ascended. Join our thriving community of survivors, tame dinosaurs, build bases, and conquer the wild!",
+                                            "FontSize": 16,
+                                            "Padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                10
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "Server Info:",
+                                            "FontSize": 18,
+                                            "Padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                10
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                        "Props": {
+                                            "Text": "- Cluster: Aesthia Cluster\n- Rates: Balanced for fun and challenge\n- Mods: Custom selection for enhanced gameplay\n- Wipe Schedule: Announced in Discord",
+                                            "FontSize": 14,
+                                            "Padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                20
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                                "Props": {
+                                    "VerticalAlignment": 2,
+                                    "Padding": [
+                                        30,
+                                        30,
+                                        30,
+                                        30
+                                    ]
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                        "Props": {
+                                            "Fill": 2,
+                                            "VerticalAlignment": 2,
+                                            "Padding": [
+                                                0,
+                                                0,
+                                                0,
+                                                10
+                                            ]
+                                        },
+                                        "UIItems": [
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                "Props": {
+                                                    "Text": "Join our Discord",
+                                                    "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
+                                                    "Padding": [
+                                                        5,
+                                                        5,
+                                                        5,
+                                                        5
+                                                    ]
+                                                },
+                                                "OnClickEvent": {
+                                                    "Type": "OpenUrl",
+                                                    "Url": "https://aesthia.fr/discord"
+                                                }
+                                            },
+                                            {
+                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                                "Props": {
+                                                    "Text": "Visit Website",
+                                                    "Padding": [
+                                                        5,
+                                                        5,
+                                                        5,
+                                                        5
+                                                    ]
+                                                },
+                                                "OnClickEvent": {
+                                                    "Type": "OpenUrl",
+                                                    "Url": "https://aesthia.fr"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "FAQ",
+                    "Note": "Frequently Asked Questions",
                     "Fill": 1
                 },
                 "UIItems": [
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to our Ark: Survival Ascended Server!",
+                            "Text": "Frequently Asked Questions",
                             "FontSize": 24,
                             "Justification": "Center",
-                            "Padding": [10, 10, 10, 10]
+                            "Color": [
+                                0,
+                                0.5,
+                                1
+                            ],
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                        "Props": {
+                            "Padding": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+                        "Props": {
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: What is Aesthia Cluster?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: Aesthia Cluster is a custom Ark: Survival Ascended server cluster focused on community, balanced gameplay, and exciting mods.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: What mods are installed?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: We have a curated selection of mods to enhance gameplay. Check our Discord or website for the full list.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: How often are servers wiped?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: Wipes are infrequent and announced in advance on Discord. We focus on stable, long-term play.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: Are there rules?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: Yes, see the Rules tab for details. Respect others and play fair!",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Q: How do I join the community?",
+                                    "FontSize": 16,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "A: Join our Discord at https://aesthia.fr/discord for updates, support, and socializing.",
+                                    "FontSize": 12,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                        "Props": {
+                            "Padding": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
                         }
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Enjoy your adventure in this prehistoric world. Follow the rules and have fun!",
+                            "Text": "Have more questions? Ask in our Discord server!",
                             "FontSize": 16,
-                            "Padding": [5, 5, 5, 5]
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
                         }
                     }
                 ]
@@ -40,33 +363,139 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
                 "Props": {
-                    "Title": "Rules",
+                    "Title": "Rules and Guides",
+                    "Note": "Server Rules and Gameplay Guides",
                     "Fill": 1
                 },
                 "UIItems": [
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "1. Be respectful to other players.",
-                            "FontSize": 14,
-                            "Padding": [5, 5, 5, 5]
+                            "Text": "Server Rules and Guides",
+                            "FontSize": 24,
+                            "Justification": "Center",
+                            "Color": [
+                                0,
+                                0.5,
+                                1
+                            ],
+                            "Padding": [
+                                5,
+                                5,
+                                5,
+                                5
+                            ]
                         }
                     },
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
                         "Props": {
-                            "Text": "2. No cheating or exploiting.",
-                            "FontSize": 14,
-                            "Padding": [5, 5, 5, 5]
+                            "Padding": [
+                                2,
+                                2,
+                                2,
+                                2
+                            ]
                         }
                     },
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
                         "Props": {
-                            "Text": "3. Have fun and build amazing things!",
-                            "FontSize": 14,
-                            "Padding": [5, 5, 5, 5]
-                        }
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "1. Respect All Players: Treat everyone with courtesy. Harassment, hate speech, or toxicity will not be tolerated.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "2. No Cheating or Exploiting: Any form of cheating, hacking, or exploiting bugs is strictly prohibited.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "3. Base Building Limits: Keep structures reasonable. Excessive building or spamming is not allowed.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "4. PvP and Raiding: PvP is encouraged, but leave bases rebuildable. No senseless destruction.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "5. Wildlife and Taming: Avoid unnecessary killing of passive creatures. Maintain ecological balance.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "6. Roleplay and Fun: Engage in roleplay if desired. Focus on enjoying the game.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "7. Community Events: Participate in server events for rewards and fun.",
+                                    "FontSize": 14,
+                                    "Padding": [
+                                        5,
+                                        5,
+                                        5,
+                                        5
+                                    ]
+                                }
+                            }
+                        ]
                     }
                 ]
             }
