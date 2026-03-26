@@ -1018,6 +1018,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                "Props": {
+                    "Width": 200,
+                    "Height": 200,
+                    "Image": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhUD3DjRVZN4&ved=0CBYQjRxqFwoTCJjRyZygvpMDFQAAAAAdAAAAABAe&opi=89978449"
+                }
             }
         ]
     }
