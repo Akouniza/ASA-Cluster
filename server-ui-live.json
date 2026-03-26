@@ -127,23 +127,6 @@
                                             {
                                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                                                 "Props": {
-                                                    "Text": "Website",
-                                                    "Padding": [
-                                                        5,
-                                                        5,
-                                                        5,
-                                                        5
-                                                    ],
-                                                    "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_WebsiteLogo.T_Nucleus_WebsiteLogo"
-                                                },
-                                                "OnClickEvent": {
-                                                    "Type": "OpenUrl",
-                                                    "Url": "https://aesthia.fr"
-                                                }
-                                            },
-                                            {
-                                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                                "Props": {
                                                     "Text": "Discord",
                                                     "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
                                                     "Padding": [
