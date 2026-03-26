@@ -161,6 +161,14 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Props": {
+                            "Width": 200,
+                            "Height": 200,
+                            "Image": "https://i.ytimg.com/vi/hUD3DjRVZN4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_pvQg-L0UPySifmZsdl7uNuh7-A"
+                        }
                     }
                 ]
             },
@@ -1018,14 +1026,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                "Props": {
-                    "Width": 200,
-                    "Height": 200,
-                    "Image": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhUD3DjRVZN4&ved=0CBYQjRxqFwoTCJjRyZygvpMDFQAAAAAdAAAAABAe&opi=89978449"
-                }
             }
         ]
     }
